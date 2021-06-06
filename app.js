@@ -5,10 +5,11 @@ const app = express();
 app.use(express.json());
 
 // mongodb+srv://Safyan:qwertyasdf@cluster0-f9smh.mongodb.net/natrous?retryWrites=true&w=majority
+// mongodb://localhost:27017/natours
 
 const connectDB = async () => {
 	try {
-		await mongoose.connect('mongodb://localhost:27017/natours', {
+		await mongoose.connect('mongodb+srv://Safyan:qwertyasdf@cluster0-f9smh.mongodb.net/natrous?retryWrites=true&w=majority', {
 			useNewUrlParser: true,
 			useCreateIndex: true,
 			useFindAndModify: false,
