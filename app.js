@@ -6,6 +6,7 @@ app.use(express.json());
 
 // mongodb+srv://Safyan:qwertyasdf@cluster0-f9smh.mongodb.net/natrous?retryWrites=true&w=majority
 // mongodb://localhost:27017/natours
+//nothin
 
 const connectDB = async () => {
 	try {
