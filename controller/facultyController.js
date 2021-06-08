@@ -29,7 +29,7 @@ exports.postFaculty = async(req, res, next) => {
   const { name, email, } = req.body;
 	console.log(req.body);
 
-	const newFaculty = await Faculty.create(rq.body);
+	const newFaculty = await Faculty.create(req.body);
   return res.json({
       success: "success",
       newFaculty,
