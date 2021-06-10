@@ -2,7 +2,7 @@ const arr=[
     {
       "name": "junaid",
       "email": "jslkfjas@gmail.com",
-      "phone_number": "303030302302",
+      "phone_number": ["3234302302","303030302302"],
       "gender": "male",
       "course_code": "323CG",
       "address": {
@@ -15,7 +15,7 @@ const arr=[
     {
       "name": "junaid",
       "email": "jslkfjas@gmail.com",
-      "phone_number": "303030302302",
+      "phone_number": ["3030331223","303030302302"],
       "gender": "male",
       "course_code": "323CG",
       "address": {

@@ -31,7 +31,7 @@ exports.getFaculty = async(req, res, next) => {
 exports.postFaculty = async(req, res, next) => {
   try {
     const {id,name,email,gender,address,course_code,phone_number}=req.body;
-    const {street_address,city,country}=address;
+    const {street_address,city,country}=address || {};
   const newFaculty={
     id,
     name,
